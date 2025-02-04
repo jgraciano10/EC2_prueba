@@ -11,4 +11,11 @@ public class exampleController {
     public String Saludo(){
         return "Hola desde mi api";
     }
+
+    @GetMapping("/commit")
+    public String Commit(){
+        return "Hola esto es un commit";
+    }
+
+
 }
